@@ -27,7 +27,8 @@ If you would like to add a new emoji to gitmoji, fill the provided `ISSUE_TEMPLA
   "entity": "entity (Ex: &#x1F440)",
   "code": ":code:",
   "description": "Enter the description for the gitmoji. Use present form for verbs.",
-  "name": "code (same as code but without ':' replace underscores for dashes _ => - )"
+  "name": "code (same as code but without ':' replace underscores for dashes _ => - )",
+  "semver": "The semantic versioning effect (can be `'major'`, `'minor'`, `'patch'` or `null` if the commit has no effect on the version)"
 }
 ```
 
